@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2 columns"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TextView --->"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="A TextView"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Button --->"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="A Button"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3 columns"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Column 1"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Column 2"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:gravity="center"
+            android:id="@+id/button6" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Column 3"
+            android:background="@android:color/holo_blue_light"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </TableRow>
+    <TableRow
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4 columns"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:text="Column 1"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Column 2"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:gravity="center"
+            android:id="@+id/button7" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Column 3"
+            android:background="@android:color/holo_blue_light"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Column 4"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:gravity="center"
+            android:id="@+id/button8" />
+
+
+    </TableRow>
+
+</TableLayout>

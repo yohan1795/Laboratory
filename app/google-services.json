@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219953246384",
+    "project_id": "mylab-3f323"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219953246384:android:67df5ed501ba9141",
+        "android_client_info": {
+          "package_name": "com.yohan.lab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219953246384-9b4g129r2tfjd2jpoq4kqbd6atc1lhdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yohan.lab",
+            "certificate_hash": "C056A18DBAFD5EFA6BFBBE5B5276744695BCFA81"
+          }
+        },
+        {
+          "client_id": "219953246384-apbao0386rptj4bad1a6vil1tve628gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKTr3Qz89GRJF09AKn7HE6cHFOWcoHMFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
